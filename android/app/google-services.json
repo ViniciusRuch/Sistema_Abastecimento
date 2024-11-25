@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "416735504958",
+    "firebase_url": "https://sistema-abastecimento-eca99-default-rtdb.firebaseio.com",
+    "project_id": "sistema-abastecimento-eca99",
+    "storage_bucket": "sistema-abastecimento-eca99.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:416735504958:android:c6daeb3c158188a1833f6f",
+        "android_client_info": {
+          "package_name": "com.p2.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWc377hSJCln5Q6nEHEGciCnaoMLrlcTs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
