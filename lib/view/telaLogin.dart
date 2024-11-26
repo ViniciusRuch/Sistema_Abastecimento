@@ -1,4 +1,4 @@
-// ignore_for_file: camel_case_types, library_private_types_in_public_api
+// ignore_for_file: camel_case_types, library_private_types_in_public_api, use_build_context_synchronously
 
 import 'package:flutter/material.dart';
 import 'package:provap2/control/autenticacaoFIrebase.dart';
@@ -77,7 +77,6 @@ class telalogin extends StatelessWidget {
   void _validaLogin() async {
     if (await auth.isUserLoggedIn()) {
       Navigator.pushReplacement(
-        // ignore: use_build_context_synchronously
         context,
         MaterialPageRoute(builder: (context) => MyApp()),
       );
